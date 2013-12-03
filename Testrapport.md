@@ -19,7 +19,7 @@ PHP_Projekt
 
 **Resultat** Systemet presenterar "Username must have 3 letters and password 6 letters".
 
-5. Registrera sig med taggar i Username. Tex "<a>hastags</a>".
+5. Registrera sig med taggar i Username.
 
 **Resultat** Systemet presenterar "No valid letters in username".
 
