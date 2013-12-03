@@ -63,15 +63,37 @@ PHP_Projekt
 
 **Reslutat** Systemet presenterar "Username or password is wrong".
 
-6. Loggar in med taggar.
+6. Loggar in med taggar i Username.
 
 **Resultat** Systemet presenterar "No valid letters in Username".
 
-7. Loggar in med taggar i password.
+7. Loggar in med taggar i Password.
 
 **Resultat** Systemet presenterar "Username or password is wrong".
 
+8. Loggar in med giltiga värden.
 
+**Resultat** Man är inloggad.
+
+9. Loggar in med giltiga värden och bockar i Remember me
+
+**Resultat** Man är inloggad och cookies är skapade.
+
+
+
+## Cookie och sessions
+
+1. Inloggad. Tar bort session och gör en ny post.
+
+**Resultat** Man är uloggad.
+
+2. Inloggad. Kopierar session till en annan webbläsare som inte är inloggad. 
+
+**Resultat** Fortfarande inte inloggad och systemet presenterar "Don't steal session please"
+
+3. Inloggad, Remember Me. Tar bort session och gör en ny post.
+
+**Resultat** Man är fortfarande inloggad och en ny session är startad.
 
 
 
