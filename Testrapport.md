@@ -23,15 +23,19 @@ PHP_Projekt
 
 **Resultat** Systemet presenterar "No valid letters in username".
 
-6. Registrerar sig med olika lösenord.
+6. Registrerar sig med taggar i password.
+
+**Resultat** Systemet presenterar "Password doesn't match"
+
+7. Registrerar sig med olika lösenord.
 
 **Resultat** Systemet presenterar "Password doesn't match".
 
-7. Registrerar sig med username som redan finns i databasen.
+8. Registrerar sig med username som redan finns i databasen.
 
 **Resultat** Systemet presenterar "The username is in use. Please try somthing else.".
 
-8. Registrerar sig med giltiga värden.
+9. Registrerar sig med giltiga värden.
 
 **Resultat** Systemet presenterar "Success. Your welcome to login now.".
 
@@ -46,6 +50,26 @@ PHP_Projekt
 2. Loggar in med endast giltigt Username.
 
 **Resultat** Systemet presenterar "Password is missing".
+
+3. Loggar in med endast giltigt Password.
+
+**Resultat** Systemet presenterar "Username is missing".
+
+4. Loggar in med ogiltigt Username och Password.
+
+**Resultat** Systemet presenterar "Username or Password is wrong".
+
+5. Loggar in med giltigt Username och ogiltigt Password.
+
+**Reslutat** Systemet presenterar "Username or password is wrong".
+
+6. Loggar in med taggar.
+
+**Resultat** Systemet presenterar "No valid letters in Username".
+
+7. Loggar in med taggar i password.
+
+**Resultat** Systemet presenterar "Username or password is wrong".
 
 
 
