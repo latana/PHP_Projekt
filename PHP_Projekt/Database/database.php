@@ -8,7 +8,7 @@ namespace database;
 			
 		public function OpenDataBase(){
 			
-			$this->DataBase = new \mysqli("latana.se.mysql", "latana_se", "", "latana_se");
+			$this->DataBase = new \mysqli("latana.se.mysql", "latana_se", "Hemlig kod", "latana_se");
 			
 			if($this->DataBase->connect_errno > 0){
     			return false;
