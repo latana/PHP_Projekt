@@ -1,0 +1,253 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* h�r b�rjar din text */
+
+body{
+	
+	background: black;
+}
+
+.container{
+	float: left;
+	margin: 0px 0px 0px 125px;
+    width: 1400px;
+	background: #3399CC;	
+}
+
+.header{
+	float:left;
+	width: 1400px;
+	background: white;
+	border: 1px solid black;
+}
+
+.Page31{
+	font-size:700%;
+}
+
+.content{
+	margin: 125px 0px 0px 0px;
+    width: 1400px;
+    height: 315px;
+	background: white;
+	border: 1px solid black;
+}
+
+.registerlink{
+	font-size:200%;
+}
+
+.divlogged{
+	margin: 10px 0px 0px 10px;
+	width: 130px;
+	height: 60px;
+}
+
+.logged{
+	font-size:150%;
+}
+
+.divform{
+	margin: 0px 0px 0px 10px;
+}
+
+.form{
+	width: 1000px;
+	height: 100px;
+}
+
+.fieldset{
+	width: 950px;
+	height: 60px;
+}
+
+.divfelinloggning{
+	float:left;
+	width: 225px;
+	height: 50px;
+	margin: 15px  0px 0px 17px;
+}
+
+.divloggedin{
+	font-size:150%;
+	float:left;
+	height:50px;
+	margin: 0px 0px 0px 0px;
+}
+
+.loginlogged{
+	height:50px;
+	width: 170px;
+	margin: 0px 0px 0px 0px;
+}
+
+.divloggedinform{
+	width: 545px;
+	height: 195px;
+	
+}
+
+.posttextarea{
+	width: 450px;
+	height: 125px;
+    resize: none;
+}
+
+.editform{
+	width: 450px;
+	height: 125px;
+	resize: none;
+}
+
+.divupdate{
+	float:left;
+	width:135px;
+	height:30px;	
+}
+
+.divpic{
+	width: 355px;
+	float: left;
+	margin: -25px 0px 0px 510px;
+}
+
+.divpicform{
+	display:none;
+}
+
+.divpostpic{
+	margin: -50px 45px 25px 0px;
+	float: right;
+	max-width: 250px;
+}
+
+.postpic{
+	max-width: 250px;
+	
+}
+
+.divlogout{
+	margin: 1px 0px 0px 100px;
+	float: left;
+	width: 80px;
+	height: 50px;
+}
+
+.logoutbutton{
+	
+}
+
+.allPostClass{
+	margin:170px 0px 0px 0px
+}
+
+.loadpostclass{
+	float:left;
+	word-wrap: break-word;
+	width: 1330px;
+	margin: 35px 0px 0px 30px;
+	border: 1px solid black;
+	background:white;
+}
+
+p.userNameClass{
+	font-size: 150%;
+	margin: 0px 0px 10px 5px;
+}
+
+p.postClass{
+
+	max-width: 920px;
+	margin: 0px 0px 10px 5px;
+}
+
+.divedit{
+	float:left;
+	margin: 135px 30px 0px 0px;
+}
+
+.divdelete{
+	margin: 160px 0px 0px 0px;
+}
+
+.felmeddelande{
+	margin: 0px 0px 0px 0px;
+}
+
+.divwrongpost{
+	float: left;
+	width: 275px;
+	margin: 7px 0px 0px 0px;
+}
+
+.commentClass{
+	max-width: 920px;
+	margin: 20px 0px 25px 50px;
+}
+
+.footer{
+	width:275px;
+}
+
+.ansvarig{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
