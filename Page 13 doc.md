@@ -18,4 +18,7 @@ Det hade också varit trevligt med något slags kommentarsystem så att man vet 
 Jag fick inga riktigt stora programmeringsproblem förr än jag bestämde mig för att hämpa ut mina poster i en array som i sin tur innehöll tre andra arrayer. Var och en innehöll id, användarnamn och kommentar som jag sen loopade igenom för att få ut varje post.
 Efter att jag var klar och lämnade datorn för en stund så började jag fundera på ifall det inte fanns något bättre sätt.
 Efter mycket sökande och tittande på föreläsningar så förstod jag att lösningen fanns i att skjuta in det i ett objekt.
-Det jag inte var helt säker på var ifall det var
+Det jag inte var helt säker på var ifall det var enligt mvc eller inte.
+Om inte annat så har jag blivit mycket mer bekväm med att använda objekt och vilken fördel de har.
+
+
