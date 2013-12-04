@@ -17,11 +17,18 @@ Huvudscenario:
 12.	Den nya kommentaren pressenteras som det senaste inlägget med bild.
 
 4a. Användaren fyller i felaktiga uppgifter.
+
 4.b Systemet presenterar kraven som skall uppfyllas för användaren.
+
 6.a Användaren fyller i felaktiga uppgifter.
+
 6.b Systemet pressenterar kraven som skall uppfyllas för användaren.
+
 9.a Användaren postar ett tomt fält.
+
 9.b Systemet presenterad felmeddelande.
+
 11.a Användaren lägger upp en fil som inte är jpg, jpeg eller png.
+
 11.b Systemet presenterar kommentaren utan bild.
 
