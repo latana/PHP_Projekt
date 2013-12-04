@@ -1,7 +1,7 @@
 PHP_Projekt
 ===========
 
-Huvudscenario:
+##Huvudscenario:
 
 1.	Användaren anländer till webbplatsen.
 2.	Inloggningsformulär presenteras.
@@ -18,6 +18,8 @@ Huvudscenario:
 13.	Texten som användaren just postade presenteras på webbplatsen.
 14.	Användaren postar en ny kommentar och laddar dessutom upp en bild.
 15.	Den nya kommentaren pressenteras som det senaste inlägget med bild.
+
+##Alternativa scenarion
 
 5a. Användaren fyller i felaktiga uppgifter.
 
