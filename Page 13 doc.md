@@ -22,3 +22,5 @@ Det jag inte var helt säker på var ifall det var enligt mvc eller inte.
 Om inte annat så har jag blivit mycket mer bekväm med att använda objekt och vilken fördel de har.
 
 
+
+
