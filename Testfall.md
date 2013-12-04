@@ -1,7 +1,7 @@
 PHP_Projekt
 ===========
 
-##Huvudscenario:
+##Huvudscenario
 
 1.	Användaren anländer till webbplatsen.
 2.	Inloggningsformulär presenteras.
