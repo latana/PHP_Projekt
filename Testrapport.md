@@ -95,23 +95,89 @@ PHP_Projekt
 
 **Resultat** Man är fortfarande inloggad och en ny session är startad.
 
+4. Inloggad, Remember Me. Ändrar värdet i cookie.
+
+**Resultat** Man är utloggad och systemet presenterar "No Valid Cookie".
+
+5. Inloggad, Remember Me. Klickar på logout knappen.
+
+**Resultat** Man är utloggad och både session och cookie är borta.
+
+## Inlägg
+
+1. Postar kommentar.
+
+**Resultat** kommentaren blir postad.
+
+2. Posta en tom kommentar.
+
+**Resultat** Systemet presenterar "Please write somthing".
+
+3. Posta en tom kommentar med bild.
+
+**Resultat** Systemet presenterar "Please write somthing".
+
+4. Postar med taggar
+
+**Resultat** Kommentaren blir postad utan taggar.
+
+5. Postar med whitespace
+
+**Resultat** Systemet presenterar "Please write somthing".
+
+6. Postar kommentar med bild.
+
+**Resultat** Kommentaren blir postad med bilden.
+
+7. Klickar på delete
+
+**Resultat** Både bild och kommentar tas bort.
+
+8 Klickar på edit och ändrar kommentaren.
+
+**Resultat** Kommentaren blir ändrad.
+
+9. Försöker ta bort en annan användares post.
+
+**Resultat** Ingenting händer.
+
+10. Försöker uppdatera någon annans kommentar
+
+**Resultat** Uppdaterings formuläret kommer fram men kommentaren går inte att uppdatera.
+
+11. Admin tar bort någon annans kommentar.
+
+**Resultat** Kommentaren tas bort
+
+12. Admin uppdaterar någon annans post.
+
+**Resultat** Kommentaren uppdateras.
+
+13. Laddar upp en fil som inte är jpg, png eller jpeg
+
+**Resultat** Kommentaren läggs upp utan bild. Inget blir sparat i databasen.
 
 
 
+## Ändra lösenord
 
+1. Postar med ett blankt fält.
 
+**Resultat** Systemet presenterar "Password is missing".
 
+2. Postar med whitespace.
 
+**Resultat** Systemet presenterar "Password is missing".
 
+3. Postar med taggar.
 
+**Resultat** Systemet presenterar "Invalid letters in password"
 
+4. Postar med 3 bokstäver
 
+**Result** Systemet presenterar "At least 6 letters in your password".
 
+5. Postar med giltiga värden.
 
-
-
-
-
-
-
+**Resultat** Systemet presenterar "The new password have been saved".
 
