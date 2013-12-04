@@ -15,6 +15,7 @@ Huvudscenario:
 10.	Texten som användaren just postade presenteras på webbplatsen.
 11.	Användaren postar en ny kommentar och laddar dessutom upp en bild.
 12.	Den nya kommentaren pressenteras som det senaste inlägget med bild.
+
 4a. Användaren fyller i felaktiga uppgifter.
 4.b Systemet presenterar kraven som skall uppfyllas för användaren.
 6.a Användaren fyller i felaktiga uppgifter.
