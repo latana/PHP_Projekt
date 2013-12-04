@@ -21,7 +21,21 @@ Efter mycket sökande och tittande på föreläsningar så förstod jag att lös
 Det jag inte var helt säker på var ifall det var enligt mvc eller inte.
 Om inte annat så har jag blivit mycket mer bekväm med att använda objekt och vilken fördel de har.
 
+Jag förlorade dessvärre mycket tid när jag testade mot phpmyadmin. Det ursprungliga felet var att jag hade fel i
+min sql satts men pga en bugg så fick jag felmeddelandet att det inte kunde få kontakt med databasen.
+
 Mitt mål har alltid varit att få fart på funktionaliteten. Att kunna ha en relativt säker inloggning och att kunna lägga upp kommentarer och bilder på ett lätt och smidigt sätt.
+
+Kodmässigt skulle jag inte vilja säga att jag är nöjd.
+Det är aldrig kul att visa upp kod som man inte är stolt över men brist på tid tvingar fram sånt.
+
+Det började med att jag hade svårt att separera min uppgifter ifrån min LoginView.
+Jag tyckte att han började få hand om mycket men kom inte på något effektivt sätt att sära på hans uppgifter.
+För stunden så beslutade jag mig för att separera LoginViews uppgifter under ett senare tillfälle då hans ansvar kanske växt och kanske då är lättare att fixa.
+
+Överlag en lärorik period där jag fick användning för det mesta man lärt sig inom programmering och om jag får tid så ska jag nog fortsätta utveckla detta forum tills jag är tillräkligt nöjd för att visa mina utlandsvänner.
+
+Jag hade t.e.x kunnat göra en postView som innehåller funktionerna inom det som postas på sidan och därav också en postController och en postModel.
 
 
 
