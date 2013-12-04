@@ -21,6 +21,8 @@ Efter mycket sökande och tittande på föreläsningar så förstod jag att lös
 Det jag inte var helt säker på var ifall det var enligt mvc eller inte.
 Om inte annat så har jag blivit mycket mer bekväm med att använda objekt och vilken fördel de har.
 
+Mitt mål har alltid varit att få fart på funktionaliteten. Att kunna ha en relativt säker inloggning och att kunna lägga upp kommentarer och bilder på ett lätt och smidigt sätt.
+
 
 
 
